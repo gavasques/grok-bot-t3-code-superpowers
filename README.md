@@ -9,6 +9,7 @@ Not affiliated with T3 Tools, Ping Labs or xAI. T3 Code is a separate project an
 ## What is inside
 
 - `SKILL.md`: the full playbook (connection over Tailscale or T3 Connect, OAuth sign-in, the tool catalog, orchestration patterns, troubleshooting, safety rules).
+- `docs/SETUP.md`: a step-by-step guide that says what you do and what your Grok Bot does to get connected.
 - `scripts/t3_oauth.py`: manual OAuth + PKCE sign-in for agents that have no browser to receive the callback.
 - `scripts/t3_mcp.py`: a small MCP client (stdlib Python plus `curl`) to list and call T3's tools.
 
